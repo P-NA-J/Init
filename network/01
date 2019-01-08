@@ -1,0 +1,1 @@
+ifconfig -a | grep -e "^[a-zA-Z]" | cut -d ':' -f 1
