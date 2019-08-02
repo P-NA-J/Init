@@ -1,0 +1,5 @@
+La premiere corespnd a l'adresse du routeur du sous reseau auquel on appartient, dans le cas de 42, c'est l'adresse du sous routeur du cluster. 
+La seconde ligne correspond a l'adresse du nat qui permet de faire le lien avec les reseaux hors 42 
+donc :
+Nom du materiel : nat-1
+adresse : 10.60.1.11
