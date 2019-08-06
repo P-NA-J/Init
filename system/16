@@ -1,0 +1,6 @@
+Cron est un service qui permet d'effectuer des commandes prevus  a l'avance et potentiellement de maniere reguliere
+
+exemple : 
+# 5 3 * * * pauljull /usr/bin/apt-get update
+
+Cette commande va lancer chaque jour de chaque mois a 3:05 la commande de mise a jour de apt-get avec les droit de l'utilisateur pauljull.

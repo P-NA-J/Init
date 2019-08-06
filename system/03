@@ -1,0 +1,1 @@
+Il faut modifier le fichier /etc/hostname" pour que le changer soit permanent et il faut egalement modifier le fichier /etc/hosts afin que la resolution du nom / adresse IP se fasse correctement. Il faut indiquer a cote de l'IP de boucle locale 127.0.0.1 le nouveau nom.
