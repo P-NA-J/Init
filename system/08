@@ -1,1 +1,1 @@
-who
+Dans le cas d'utilisation d'une authentification par cle RSA, les cles privees autorise sont reference dans le fichier ~/.ssh/authorized_keys
