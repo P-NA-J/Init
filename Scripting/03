@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "What's your 42's login ?" ; read VAR_LOGIN
+echo "What's your project ?" ; read VAR_PROJECT
+
+PATH_WORK="$HOME/Projet"
+PATH_LIBFT="$HOME/libft/*"
+
+cd $PATH_WORK
+git clone vogsphere@vogsphere.42.fr:intra/2019/activities/$VAR_PROJECT/$VAR_LOGIN $VAR_PROJECT
+touch $PATH_WORK/$VAR_PROJECT/Makefile
+touch $PATH_WORK/$VAR_PROJECT/$VAR_PROJECT.h
+mkdir $PATH_WORK/$VAR_PROJECT/source
+mkdir $PATH_WORK/$VAR_PROJECT/include
+mkdir $PATH_WORK/$VAR_PROJECT/libft
+cp -Rf $PATH_LIBFT $PATH_WORK/$VAR_PROJECT/libft/
