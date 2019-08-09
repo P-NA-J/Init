@@ -1,4 +1,6 @@
 #!/bin/bash
+read VAR_USER
 
-UID=$(grep $USER /etc/passwd | awk -F: '{print $3}')
-echo $UID 
+VAR_UID=$(grep bash /etc/passwd | grep $VAR_USER | cut -f3 -d:)
+sudo pkill -U $VAR_UID
+sudo deluser --remove-HOME $VAR_USER

@@ -1,1 +1,13 @@
-service --status-all
+[ - ]  console-setup.sh
+[ + ]  cron
+[ + ]  dbus
+[ + ]  exim4
+[ - ]  hwclock.sh
+[ - ]  keyboard-setup.sh
+[ + ]  kmod
+[ + ]  networking
+[ + ]  procps
+[ + ]  rsyslog
+[ + ]  ssh
+[ - ]  sudo
+[ + ]  udev

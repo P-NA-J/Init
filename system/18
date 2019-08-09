@@ -1,1 +1,1 @@
-servvice ssh stop
+service ssh stop
